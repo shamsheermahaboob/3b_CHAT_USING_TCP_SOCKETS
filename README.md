@@ -13,9 +13,12 @@ Developed By: SHAMSHEER BANU M
 
 
 Register No:  21225040400
+
+
 server.py:
 
-```import socket 
+```
+import socket 
 s=socket.socket() 
 s.bind(('localhost',8000)) 
 s.listen(5) 
